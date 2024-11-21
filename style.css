@@ -8,3 +8,8 @@ body {
   font-family: Verdana;
   text-align: center;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
