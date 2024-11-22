@@ -11,8 +11,8 @@ function onCmdSubmit(event) {
             responsesEl.innerHTML += `<p>unrecognized command. use 'help'.</p>`
         }
 
-        // clear
-        event.target.value = ""
+        event.target.value = ""  // clear console
+        event.target.scrollIntoView() // scroll down
     }
 }
 
@@ -39,6 +39,6 @@ function handleListPages() {
 }
 
 function handleEasteregg() {
-    return "well well well look who's looking for secrets. hopefully you haven't found everything i've hidden here" +
+    return "well well well look who's looking for secrets. hopefully you haven't found everything i've hidden here " +
         "yet..."
 }
