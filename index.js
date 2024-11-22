@@ -1,10 +1,12 @@
 function onCmdSubmit(event) {
     const responsesEl = document.getElementById("responses")
     const responses = new Map([
-        ["help", "goto &lt;page>"],
+        ["help", "goto &lt;page> go to a page<br>" +
+        "list-pages list all pages"],
         ["goto", "site is still under construction. no pages are added yet"],
         ["easteregg", "well well well look who's looking at the code. hopefully you haven't found all the little" +
         "secrets here..."],
+        ["list-pages", "site is under construction, pages coming soon!"]
     ])
 
     if (event.key === "Enter") {
