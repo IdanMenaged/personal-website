@@ -26,7 +26,8 @@ function toCamelCase(s) {
 
 function handleHelp() {
     return "goto &lt;page> go to a page<br>" +
-        "list-pages list all pages"
+        "list-pages list all pages<br>" +
+        "quit go back to neocities.org"
 }
 
 function handleGoto(page) {
@@ -41,4 +42,9 @@ function handleListPages() {
 function handleEasteregg() {
     return "well well well look who's looking for secrets. hopefully you haven't found everything i've hidden here " +
         "yet..."
+}
+
+function handleQuit() {
+    window.location.href = "https://www.neocities.org"
+    return "loading..."
 }
