@@ -3,8 +3,12 @@
    "how to change link color." */
 
 body {
-  background-color: black;
-  color: lawngreen;
+  /* vars */
+  --bg: black;
+  --text: lawngreen;
+
+  background-color: var(--bg);
+  color: var(--text);
   font-family: "Fantasque Sans Mono", monospace;
   text-align: center;
 }
@@ -12,4 +16,14 @@ body {
 .flex-container {
   display: flex;
   justify-content: center;
+}
+
+#cmd {
+  background-color: var(--bg);
+  border: none;
+  color: var(--text);
+}
+
+footer {
+  margin: 20px;
 }
