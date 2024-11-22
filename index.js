@@ -10,6 +10,9 @@ function onCmdSubmit(event) {
         else {
             responsesEl.innerHTML += `<p>unrecognized command. use 'help'.</p>`
         }
+
+        // clear
+        event.target.value = ""
     }
 }
 
