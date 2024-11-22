@@ -3,7 +3,7 @@ function onCmdSubmit(event) {
 
     if (event.key === "Enter") {
         const [cmd, ...params] = event.target.value.split(' ')
-        const funcName = toCamelCase(`handle-${cmd}`)  // convert to camelCase
+        const funcName = toCamelCase(`handle-${cmd}`)
         if (typeof window[funcName] === "function") {
             responsesEl.innerHTML += `<p>${window[funcName]([params])}</p>`
         }
