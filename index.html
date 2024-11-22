@@ -28,11 +28,15 @@
       try typing `help` to see the rest of the site
     </p>
 
-    <label for="cmd">~ > </label><input type="text" id="cmd">
+    <div id="responses"></div>
+
+    <label for="cmd">~ > </label><input type="text" id="cmd" onkeypress="onCmdSubmit(event)">
 
     <footer>
       <a href="https://github.com/IdanMenaged">Github</a> |
       <a href="https://www.youtube.com/channel/UCNVZd892XqDLiNx8u2yrR5w">Youtube</a>
     </footer>
+
+    <script src="/index.js"></script>
   </body>
 </html>
