@@ -1,0 +1,15 @@
+body. html {
+    height: 100%;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+#map {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
