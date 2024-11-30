@@ -1,47 +1,19 @@
 body {
-    margin: 0;
-    overflow: hidden;
+    background-image: url("bg.jpg");
+    background-size: 100vw 100vh;
 }
 
 .map-container {
-    position: relative;
+    text-align: center;
+}
+
+.map {
     width: 1024px;
-    max-height: 1024px;
-}
-
-.map-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.flags {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
+    height: 1024px;
 }
 
 .flag {
     position: absolute;
-    pointer-events: auto;
-    transform: scale(1);
-    transition: transform 0.3s ease;
-}
-
-.flag:hover {
-    transform: scale(1.5);
-}
-
-.flag img {
-    width: 50px;
-    height: auto;
-    clip-path: polygon(
-        0% 0%,
-        100% 0%,
-        100% 100%,
-        0% 100%
-    );
+    left: 0;
+    top: 0;
 }
