@@ -32,7 +32,8 @@ function handleHelp() {
 }
 
 function handleGoto(page) {
-    window.location.href = `/pages/${page}/${page}.html`
+    const basename = page.toString().split('/').reverse()[0]
+    window.location.href = `/pages/${page}/${basename}.html`
     return "loading..."
 }
 
