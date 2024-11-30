@@ -1,10 +1,10 @@
 body {
     background-image: url("bg.jpg");
     background-size: 100vw 100vh;
-}
 
-.map-container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .map {
