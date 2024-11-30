@@ -1,2 +1,2 @@
 # personal-website
-deployed on [theresnosuchthingascringe.neocities.org](theresnosuchthingascringe.neocities.org)
+deployed on [theresnosuchthingascringe.neocities.org](https://theresnosuchthingascringe.neocities.org)
