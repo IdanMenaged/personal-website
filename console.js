@@ -32,7 +32,7 @@ function handleHelp() {
 }
 
 function handleGoto(page) {
-    window.location.href = `pages/${page}/${page}.html`
+    window.location.href = `/pages/${page}/${page}.html`
     return "loading..."
 }
 
@@ -51,6 +51,6 @@ function handleQuit() {
 }
 
 function handleHome() {
-    window.location.href = "index.html"
+    window.location.href = "/index.html"
     return "loading..."
 }
